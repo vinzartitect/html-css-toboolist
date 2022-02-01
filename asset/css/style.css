@@ -1,5 +1,22 @@
+/* reset */
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
+/* fine reset */
+
+/* intestazione con logo */
+
+.sfondo {
+    border: 1px solid red;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 20px;
+}
+
