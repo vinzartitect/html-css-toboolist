@@ -20,6 +20,11 @@
     padding-left: 20px;
 }
 
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 /* barre task e section */
 
 .top {
@@ -52,17 +57,37 @@
 
 /* barra new task */
 
+ul {
+    list-style: none;
+}
+
 h3:before {
-    content: "\25BC";
+    content: "\25BE";
+    font-size: 20px;
+    line-height: 15px;
 }
 
 .check-v:before {
+    display: inline-block;
+    color: #57baa1;
     content: "\2713";
     border: 1px solid #57baa1;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    padding: 5px;
+    text-align: center;
 }
 
+.check-x:before {
+    display: inline-block;
+    color: red;
+    content: "\2717";
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
 
 .editorial {
     background-color: #47adf1;
@@ -76,6 +101,65 @@ h3:before {
     padding: 5px 20px;
 }
 
+.goals {
+    background-color: #9c72e4;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.mobile {
+    background-color: #f29e33;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.website {
+    background-color: #d863a1;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.sales {
+    background-color: #b0c926;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px; 
+}
 
 
 
