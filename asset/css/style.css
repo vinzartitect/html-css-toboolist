@@ -20,3 +20,39 @@
     padding-left: 20px;
 }
 
+/* barre task e section */
+
+.top {
+ 
+}
+
+.addt {
+    
+    background-color: #47adf1;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 10%;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.adds {
+    border: 1px solid #cfd4d8;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 10%;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+/* barra new task */
+
+
+
+
+
